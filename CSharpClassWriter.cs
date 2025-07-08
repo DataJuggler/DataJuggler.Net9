@@ -1861,7 +1861,12 @@ namespace DataJuggler.NET9
 			#endregion
 
             #region WriteDataClasses(DataManager dataManager)
-            public bool WriteDataClasses(DataManager dataManager)
+            /// <summary>
+			/// This method is called By Excelerate
+			/// </summary>
+			/// <param name="dataManager"></param>
+			/// <returns></returns>
+			public bool WriteDataClasses(DataManager dataManager)
 			{
 				// Validate DataManager Class Is Ready To Export
                 if (!Validate(dataManager))

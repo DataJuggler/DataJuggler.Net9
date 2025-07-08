@@ -18,7 +18,7 @@ SQLDatabaseConnector - A wrapper for SqlDatabaseConnection that reads database s
 CSharpClassWriter - A class that is useful in code generating C# classes.</Description>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/DataJuggler/DataJuggler.Net6</PackageProjectUrl>
-    <Version>9.0.3</Version>
+    <Version>9.0.4</Version>
     <Copyright>Data Juggler - Corby Nichols</Copyright>
     <RepositoryType>Git Hub</RepositoryType>
     <RepositoryUrl>https://github.com/DataJuggler/DataJuggler.Net6.git</RepositoryUrl>
@@ -126,8 +126,9 @@ CSharpClassWriter - A class that is useful in code generating C# classes.</Descr
 
   <ItemGroup>    
     <PackageReference Include="DataJuggler.Cryptography" Version="9.0.1" />    
-    <PackageReference Include="DataJuggler.UltimateHelper" Version="9.0.2" />    
-    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+    <PackageReference Include="DataJuggler.UltimateHelper" Version="9.1.0" />    
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.2" />    
+    <PackageReference Include="Microsoft.Identity.Client" Version="4.73.1" />
   </ItemGroup>
 
   <ItemGroup>   
